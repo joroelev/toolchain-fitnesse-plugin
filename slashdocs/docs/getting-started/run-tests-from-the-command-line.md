@@ -38,7 +38,7 @@ amount of Java code the right folder.
 ## The basic command to run a test suite
 We are now ready to run tests from the command line. 
 The basic command looks like this. It has to be run from the root of the project folder. The equals sign after 
--DfitnesseSuiteToRun should be followed by the name of an existing test suite should.
+-DfitnesseSuiteToRun should be followed by the name of an existing test suite.
   
 ```mvn clean test-compile failsafe:integration-test failsafe:verify -DfitnesseSuiteToRun=<put-path-of-suite-here>```
   
@@ -56,4 +56,5 @@ How to add a configuration was already described [here](set-up-a-toolchain-proje
     3. Click 'OK'.
 
 * Now this configuration can be run by selecting it and click the 'Play' button. The result of the run will be shown in
-the log. And will also be available in the folder ```target\fitnesse-results```. 
+the log. And will also be available in the folder ```target\fitnesse-results```.
+  

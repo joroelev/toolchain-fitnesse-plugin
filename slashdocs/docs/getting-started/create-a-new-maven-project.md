@@ -19,4 +19,3 @@ Before we can go ahead and set up our first Toolchain project, some basic enviro
 5. **Open the project** either in a new window or in the current one
    ![Name project and select folder](/images/getting-started/open-project.png)
    
-Now that our basic environment setup is done, we can proceed to [set up our Toolchain project](Set-up-a-toolchain-project.md)
